@@ -1,0 +1,92 @@
+SCM - Source Code Management:
+==============================
+Git - Distributed Version Control
+TFS - Team Foundation server
+SVN - subversion
+CVS - Centraliozed Version System
+VCS - Version control System
+
+Git:
++++++++++++
+
+Pre-Req
+====
+1. you need to install - yum install git
+2. git installed or not ---   git --version
+Git Local Repo
+
+git init .
+
+config username
+git --congig -username "sobha"
+git --congig -emailid reddy.sobha19@gmail.com"
+ git config --global user.name sobha
+    git config --global user.email reddy.sobha19@gmail.com
+
+email id
+repo name
+touch file1
+git status
+add the file name
+commit - saving
+
+history
+git log
+
+local repo
+remote repo  - github - repo
+
+create:
+===========
+touch file1
+git add
+git commit
+
+git history:
+=====
+git log - complete details 
+git log --oneline - single line
+
+Git Branches:
+++++++++++++
+git branch are effectively a pointer to a snapshot of your changes
+
+Dev Env  - dev barnch
+UAT Env - QA Branch
+PRe-prod Env
+Prod Env
+
+dev branch
+feature branch
+hot fix
+release
+main
+master barnch
+
+dev barnch - dev env
+===========
+1000 lines
+
+
+2 months:UAT Env 
+
+QA Branch
+mergening cencept
+
+manual merge:
+========
+git merge source barnch name  destination branchname
+dev
+master barnch
+git merge dev master
+
+git merge:
+===========
+mergeing the data b/w 2 diff barnch
+
+
+
+
+
+
+
